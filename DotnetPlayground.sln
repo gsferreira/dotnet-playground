@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip", "Linq\Zip\Zip.csproj", "{065D1732-0DBA-456A-A5F6-1A5A250B541B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq", "Linq", "{BEC0BC4A-8358-4509-88D2-7FE9E46671D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{FB646D9D-7DE5-4D9C-A1D0-88033329CAE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyPattern", "csharp\10\PropertyPattern\PropertyPattern.csproj", "{B3B33F97-8E6A-401F-8CF9-55434BD9D191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10", "10", "{36F0F80F-FB28-4E7B-8CC1-82A26DB51454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065D1732-0DBA-456A-A5F6-1A5A250B541B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065D1732-0DBA-456A-A5F6-1A5A250B541B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065D1732-0DBA-456A-A5F6-1A5A250B541B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065D1732-0DBA-456A-A5F6-1A5A250B541B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B33F97-8E6A-401F-8CF9-55434BD9D191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B33F97-8E6A-401F-8CF9-55434BD9D191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B33F97-8E6A-401F-8CF9-55434BD9D191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B33F97-8E6A-401F-8CF9-55434BD9D191}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36F0F80F-FB28-4E7B-8CC1-82A26DB51454} = {FB646D9D-7DE5-4D9C-A1D0-88033329CAE6}
+		{B3B33F97-8E6A-401F-8CF9-55434BD9D191} = {36F0F80F-FB28-4E7B-8CC1-82A26DB51454}
+		{065D1732-0DBA-456A-A5F6-1A5A250B541B} = {BEC0BC4A-8358-4509-88D2-7FE9E46671D4}
+	EndGlobalSection
+EndGlobal

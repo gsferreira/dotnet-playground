@@ -6,5 +6,6 @@ My dotnet playground, the base of my #dotnet related content.
 ## Examples
 
  - [C# 10](/csharp/10)
+ - [Linq](/Linq)
 
 

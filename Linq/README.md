@@ -1,0 +1,5 @@
+# Linq
+
+ - [Zip](/Linq/Zip)
+
+
