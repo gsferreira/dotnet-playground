@@ -13,12 +13,12 @@ namespace ConstructorInitializeWithTuples
             Assert.Equal("Hello World!", note.Content);
         }
     }
-    public class Note
-    {
-        public Note(string title, string content)
-            => (Content, Title) = (content, title);
+public class Note
+{
+    public Note(string title, string content)
+        => (Content, Title) = (content, title);
 
-        public string Title { get; set; }
-        public string Content { get; set; }
-    }
+    public string Title { get; }
+    public string Content { get; }
+}
 }
