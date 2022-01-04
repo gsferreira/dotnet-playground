@@ -10,7 +10,7 @@ public class ExecutionTimeTests
     // Reference: https://fluentassertions.com/executiontime
 
     [Fact]
-    public void GivenFastFunction_WhenAssertExecutionTime_ThenSucceed()
+    public void GivenMethod_WhenExecuteUnder20ms_ThenSucceed()
     {
         var func = RandomMethod;
 
@@ -23,7 +23,7 @@ public class ExecutionTimeTests
     }
 
     [Fact]
-    public async Task GivenFastAsyncFunction_WhenAssertExecutionTime_ThenSucceed()
+    public async Task GivenAsyncFunction_WhenExecuteUnder20ms_ThenSucceed()
     {
         var func = () => Task.Delay(5.Milliseconds());
 
