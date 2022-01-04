@@ -9,7 +9,7 @@ public class ConstantInterpolatedStringsTests
     {
         const string errorCode = "1001";
         const string errorMessage = $"{errorCode} - Invalid username";
-        
+
         Assert.Equal("1001 - Invalid username", errorMessage);
     }
 }
