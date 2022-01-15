@@ -8,6 +8,8 @@ My dotnet playground, the base of my #dotnet related content.
  - [C# 7](/csharp/7)
  - [C# 10](/csharp/10)
  - [Linq](/Linq)
+ - [Optimizations](/Optimizations)
  - [Tests](/Tests)
+ 
 
 
