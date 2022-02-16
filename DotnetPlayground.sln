@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitDisplayName", "Tests\x
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyPatternsBenchmark", "Optimizations\PropertyPatternsBenchmark\PropertyPatternsBenchmark.csproj", "{11862B9F-DD40-46F7-B2CB-548AF69341EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitOrReturnTaskBenchmark", "Optimizations\AwaitOrReturnTaskBenchmark\AwaitOrReturnTaskBenchmark.csproj", "{6FF84111-0DF9-4C67-8E98-9262434D9C52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{11862B9F-DD40-46F7-B2CB-548AF69341EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11862B9F-DD40-46F7-B2CB-548AF69341EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11862B9F-DD40-46F7-B2CB-548AF69341EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF84111-0DF9-4C67-8E98-9262434D9C52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF84111-0DF9-4C67-8E98-9262434D9C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF84111-0DF9-4C67-8E98-9262434D9C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF84111-0DF9-4C67-8E98-9262434D9C52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36F0F80F-FB28-4E7B-8CC1-82A26DB51454} = {FB646D9D-7DE5-4D9C-A1D0-88033329CAE6}
@@ -87,5 +93,6 @@ Global
 		{54BCAE82-1C70-4F58-928A-6B3D16A878E8} = {527D771D-0933-43FF-B57B-EA21A78139C2}
 		{94F91DBB-54BF-4BE8-89DF-219D82308CC9} = {54BCAE82-1C70-4F58-928A-6B3D16A878E8}
 		{11862B9F-DD40-46F7-B2CB-548AF69341EC} = {657046BB-61A7-43E6-9061-B144394001B8}
+		{6FF84111-0DF9-4C67-8E98-9262434D9C52} = {657046BB-61A7-43E6-9061-B144394001B8}
 	EndGlobalSection
 EndGlobal
