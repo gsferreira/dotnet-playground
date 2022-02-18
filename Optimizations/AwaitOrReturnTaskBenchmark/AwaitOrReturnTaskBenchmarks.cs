@@ -20,13 +20,13 @@ public class AwaitOrReturnTaskBenchmarks
     }
 
     [Benchmark]
-    public static async Task WithDirectReturnOfDelayedTask()
+    public async Task WithDirectReturnOfDelayedTask()
     {
         await ReturnTask();
     }
 
     [Benchmark]
-    public static async Task WithDelayedTaskAwaited()
+    public async Task WithDelayedTaskAwaited()
     {
         await AwaitTask();
     }
@@ -43,12 +43,12 @@ public class AwaitOrReturnTaskBenchmarks
         await HttpClientAwaitTask();
     }
 
-    private static Task ReturnTask()
+    private Task ReturnTask()
     {
         return Task.Delay(TimeSpan.FromMilliseconds(1));
     }
 
-    private static async Task AwaitTask()
+    private async Task AwaitTask()
     {
         await Task.Delay(TimeSpan.FromMilliseconds(1));
     }
