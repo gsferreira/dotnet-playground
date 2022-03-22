@@ -46,6 +46,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.NetEscapades.EnumGenerators", "Libraries\Libraries.NetEscapades.EnumGenerators\Libraries.NetEscapades.EnumGenerators.csproj", "{BA368312-C1DF-4A3E-B2EF-8CC3B14E2EA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypesWithExpression", "csharp\10\AnonymousTypesWithExpression\AnonymousTypesWithExpression.csproj", "{DF759912-DBCC-4DAF-AF7B-B807F8982116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,6 +98,10 @@ Global
 		{BA368312-C1DF-4A3E-B2EF-8CC3B14E2EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA368312-C1DF-4A3E-B2EF-8CC3B14E2EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA368312-C1DF-4A3E-B2EF-8CC3B14E2EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF759912-DBCC-4DAF-AF7B-B807F8982116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF759912-DBCC-4DAF-AF7B-B807F8982116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF759912-DBCC-4DAF-AF7B-B807F8982116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF759912-DBCC-4DAF-AF7B-B807F8982116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36F0F80F-FB28-4E7B-8CC1-82A26DB51454} = {FB646D9D-7DE5-4D9C-A1D0-88033329CAE6}
@@ -113,5 +119,6 @@ Global
 		{6FF84111-0DF9-4C67-8E98-9262434D9C52} = {657046BB-61A7-43E6-9061-B144394001B8}
 		{FD66DBF1-DBA6-41F2-BB69-B367E46BC1A6} = {36F0F80F-FB28-4E7B-8CC1-82A26DB51454}
 		{BA368312-C1DF-4A3E-B2EF-8CC3B14E2EA1} = {5DAE1F9D-5A9A-4550-9616-3A0F4810E8C0}
+		{DF759912-DBCC-4DAF-AF7B-B807F8982116} = {36F0F80F-FB28-4E7B-8CC1-82A26DB51454}
 	EndGlobalSection
 EndGlobal
