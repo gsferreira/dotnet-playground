@@ -52,6 +52,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableListBuilderBenchma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableArrayBuilderBenchmark", "Optimizations\ImmutableArrayBuilderBenchmark\ImmutableArrayBuilderBenchmark.csproj", "{F84F0CF0-D977-40ED-B6BE-875D1900B7F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtractBenchmark", "Optimizations\StringExtractBenchmark\StringExtractBenchmark.csproj", "{DFCC869B-ADD7-43A8-A527-F695B79FE3F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,10 @@ Global
 		{F84F0CF0-D977-40ED-B6BE-875D1900B7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84F0CF0-D977-40ED-B6BE-875D1900B7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84F0CF0-D977-40ED-B6BE-875D1900B7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFCC869B-ADD7-43A8-A527-F695B79FE3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFCC869B-ADD7-43A8-A527-F695B79FE3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFCC869B-ADD7-43A8-A527-F695B79FE3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFCC869B-ADD7-43A8-A527-F695B79FE3F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36F0F80F-FB28-4E7B-8CC1-82A26DB51454} = {FB646D9D-7DE5-4D9C-A1D0-88033329CAE6}
@@ -134,5 +140,6 @@ Global
 		{DF759912-DBCC-4DAF-AF7B-B807F8982116} = {36F0F80F-FB28-4E7B-8CC1-82A26DB51454}
 		{58F0F732-2E8A-40C8-ABF5-0C689F3CD4F5} = {657046BB-61A7-43E6-9061-B144394001B8}
 		{F84F0CF0-D977-40ED-B6BE-875D1900B7F6} = {657046BB-61A7-43E6-9061-B144394001B8}
+		{DFCC869B-ADD7-43A8-A527-F695B79FE3F5} = {657046BB-61A7-43E6-9061-B144394001B8}
 	EndGlobalSection
 EndGlobal
