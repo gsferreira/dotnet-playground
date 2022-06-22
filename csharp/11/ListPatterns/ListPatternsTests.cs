@@ -26,6 +26,7 @@ public class ListPatternsTests
 
     [Theory]
     [InlineData(new string[] { }, "Empty")]
+    [InlineData(new string[] { "e1" }, "Found e1")]
     [InlineData(new string[] { "e1", "e2" }, "Found e1 and e2")]
     [InlineData(new string[] { "e1", "e2", "e3", "e4", "e5" }, "Many found: from e1 to e5")]
     public async void GivenStringCollection_ThenReturnCollectionDescription(string[] input, string output)
@@ -33,6 +34,7 @@ public class ListPatternsTests
         var result = input switch
         {
             [] => "Empty",
+            [var a] => $"Found {a}",
             [var a, var b] => $"Found {a} and {b}",
             [var a, .. _, var z] => $"Many found: from {a} to {z}"
         };
@@ -81,7 +83,6 @@ public class ListPatternsTests
 
             };
         }
-
     }
 
 
