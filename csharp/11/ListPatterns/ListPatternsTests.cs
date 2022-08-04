@@ -13,6 +13,8 @@ public class ListPatternsTests
     {
         var words = input.Split(' ');
 
+        byte[] x = "hello"u8.ToArray();
+
         var result = words switch
         {
             { Length: 0 } => "Empty array",

@@ -17,6 +17,5 @@ public abstract class BaseHeaderEnrichFilter : IActionFilter
         context.HttpContext.Response.Headers.Add(
             _name, _value);
 
-    public void OnActionExecuted(ActionExecutedContext context) { }
-    
+    public void OnActionExecuted(ActionExecutedContext context) { }   
 }
