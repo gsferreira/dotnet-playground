@@ -1,7 +1,9 @@
 # dotnet-playground
 My dotnet playground, the base of my #dotnet related content.
 
-[Twitter @gsferreira](https://gsferreira.com)
+- [Twitter @gsferreira](https://gsferreira.com)
+- [YouTube](https://www.youtube.com/channel/UCGd8ACZ918e3EjbWxiuyK-A)
+- [LinkedIn](https://www.linkedin.com/in/gferreira)
 
 ## Examples
 
